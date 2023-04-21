@@ -5,28 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../estilos ccs/estilos.css">
+    <link rel="stylesheet" href="../styles/sass.css">
     <title>Blog</title>
-    <link rel="icon" type="image/x-icon" href="/images/logofinalfavicon.png">
+    <link rel="icon" type="image/x-icon" href="/pix/logofinalfavicon.png">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light" ;>
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                    <a class="nav-link" href="./blog.html">Blog</a>
-                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                    <a class="nav-link" href="./servicios.html">Servicios</a>
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="../index.html">Home</a>
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                        <a class="nav-link active" aria-current="page" href="./blog.html">Blog</a>
+                        <a class="nav-link" href="./about-us.html">About Us</a>
+                        <a class="nav-link" href="./services.html">Services</a>
+                    </div>
                 </div>
-                </div>
+                <form>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                </form>
+                <button class="btn btn-outline-success" type="submit">
+                    Search
+                </button>
             </div>
-            </nav>
+        </nav>
     </header>
 
     <main>
@@ -34,14 +37,14 @@
         <SECTIon>
             <h2 class="seoweb">¿Qué es el SEO y para que aplicarlo en mi empresa?</h2>
             <div>
-                <img class="imagenBlogprincipal" src="../images/chicaencomputador.jpeg" alt="chica en el computador con taza de cafe en la mano y ">
+                <img class="imagenBlogprincipal" src="../pix/senor-usando-laptop.jpg" alt="chica en el computador con taza de cafe en la mano y ">
             </div>
             
         </SECTIon>
         <section>
             <h2 class="chatopenai">¿Cómo me ayuda el ChatGPT como estrategia de SEO?</h2>
             <div>
-                <img class="imagenchatgpt" src="../images/openai-avatar.png" alt="logo chat open ai">
+                <img class="imagenchatgpt" src="../pix/openai-avatar.png" alt="logo chat open ai">
             </div>
             <p>En Growketing podrás encontrar soluciones eficaces para la obtención de clientes online de mayor calidad y con más periodicidad.</p>
         </section>
@@ -51,13 +54,13 @@
     <footer>
         <section class="redes">
             <div class="logorrss facebook">
-            <a target="_blank" href="https://www.facebook.com/"><img class="icono" src="../images/facebook.svg" alt="logo tradicional de facebook"></a>
+            <a target="_blank" href="https://www.facebook.com/"><img class="icono" src="../pix/facebook.svg" alt="logo tradicional de facebook"></a>
             </div>
             <div class="logorrss instagram">
-            <a target="_blank" href="https://www.instagram.com/"><img class="icono" src="../images/instagram.svg" alt="logo tradicional de instagram"></a>
+            <a target="_blank" href="https://www.instagram.com/"><img class="icono" src="../pix/instagram.svg" alt="logo tradicional de instagram"></a>
             </div>
             <div class="logorrss twitter">
-            <a target="_blank" href="https://twitter.com/"><img class="icono" src="../images/twitter.svg" alt="logo tradicional de twitter "></a>
+            <a target="_blank" href="https://twitter.com/"><img class="icono" src="../pix/twitter.svg" alt="logo tradicional de twitter "></a>
             </div>
         </section>
     <section class="datosempresa">

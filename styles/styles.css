@@ -24,7 +24,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(140, 236, 177)
+    background-color: black;
 }
 
 header{
